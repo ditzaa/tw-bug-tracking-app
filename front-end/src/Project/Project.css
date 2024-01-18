@@ -1,0 +1,58 @@
+.about-project-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #662d91;
+    background-image: url("../assets/fundal.jpg");
+    color: white;
+    padding-top: 15px;
+    font-family: Verdana, Tahoma, sans-serif; 
+}
+
+.about-project-header{
+    display: flex;
+    gap: 20px;
+    border: 5px solid black;
+    background-color: #662d91;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.bugs{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.about-bug-container{
+    display: flex;
+    gap: 20px;
+    border: 5px solid black;
+    background-color: #662d91;
+    font-size: 1.5rem;
+    margin-bottom: 10px; 
+}
+
+.resolve-commit-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-bug{
+    font-size: 1rem;
+    border: 5px solid black;
+    border-radius: 8px;
+    background-color: #662d91;
+    color:white;
+    padding: 4px;
+}
+

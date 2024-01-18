@@ -1,0 +1,66 @@
+.register-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #662d91;
+    background-image: url("../assets/fundal.jpg");
+  }
+  
+.register-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #662d91;
+    border-radius: 8px;
+    height: 400px;
+    width: 400px;
+    font-size: 1.5rem;
+    font-family: Verdana, Tahoma, sans-serif; 
+    border: 5px solid black;
+}
+
+.label-register {
+  margin-bottom: 15px;
+}
+
+.label-register{
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.input-register {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.buttons-register {
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+  background-color: #33006F;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-family: Verdana, Tahoma, sans-serif; 
+  font-size: 1rem;
+  border: 5px solid black;
+}
+

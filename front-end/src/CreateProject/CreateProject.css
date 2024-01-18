@@ -1,0 +1,60 @@
+.create-project-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #662d91;
+    background-image: url("../assets/fundal.jpg");
+}
+  
+.create-project-form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #662d91;
+    border-radius: 8px;
+    height: 800px;
+    width: 400px;
+    font-size: 1.5rem;
+    font-family: Verdana, Tahoma, sans-serif; 
+    border: 5px solid black;
+    padding-top: 20px;
+}
+ 
+.label-create-project{
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-create-project {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.buttons-create-project {
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    background-color: #33006F;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-family: Verdana, Tahoma, sans-serif; 
+    font-size: 1rem;
+    border: 5px solid black;
+  }
+
+.new-member-input{
+    height: 25px;
+}

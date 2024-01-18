@@ -1,0 +1,49 @@
+.projects-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-image: url("../assets/fundal.jpg");
+    color: white;
+    gap: 30px;
+    font-family: Verdana, Tahoma, sans-serif; 
+}
+
+.project-container{
+    width: 500px;
+    height: 100px;
+    background-color: #662d91;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 5px;
+    border: 5px solid black;
+}
+
+.link-project{
+    color: white;
+    text-decoration: none;
+    background-color: #33006F;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 6px;
+}
+
+.button-add-project {
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    background-color: #33006F;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-family: Verdana, Tahoma, sans-serif; 
+    font-size: 1rem;
+    border: 5px solid black;
+  }
